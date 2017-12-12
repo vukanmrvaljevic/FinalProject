@@ -1,0 +1,71 @@
+.body {
+  font-family: "Open Sans";
+}
+
+.menubar {
+    background: darkgrey;
+    box-shadow: 0 1px 4px #999;
+    font-family: inherit;
+}
+
+.menubar ul {
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.menubar ul li {
+    display: inline-block;
+    width: 120px;
+    list-style: none;
+    vertical-align: middle;
+}
+
+.menubar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0 15px 0 0;
+  font-family: "Open Sans"
+}
+
+.logo img {
+  margin: 10px auto 0px auto;
+  display: block;
+  width:130px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
